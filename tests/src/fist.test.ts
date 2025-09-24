@@ -1,0 +1,43 @@
+
+import {suite,it,TestContext} from 'node:test';
+import { tst1 } from './tst1.js'
+import { tst2 } from './tst2.js'
+import { tst3 } from './tst3.js'
+import { tst4 } from './tst4.js'
+import { tst5 } from './tst5.js'
+import { tst6 } from './tst6.js'
+import { tst7 } from './tst7.js'
+import { tst8 } from './tst8.js'
+import { tst9 } from './tst9.js'
+import { tst10 } from './tst10.js'
+
+
+
+
+suite("TestSuite", async (ctx) =>{
+
+
+  await tst1();
+
+  await tst2();
+
+  await tst3();
+
+  await tst4();
+
+  await tst5();
+
+  await tst6();
+
+  await tst7();
+
+  await tst8();
+
+  await tst9();
+
+  await tst10();
+
+
+});
+
+

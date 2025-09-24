@@ -1,0 +1,30 @@
+{
+  "name": "byte-bit-packer",
+  "version": "1.0.0",
+  "main": "./dist/BBPacker.js",
+  "types": "./dist/BBPacker.d.ts",
+  "scripts": {
+    "build": "tsc --removeComments --declaration false && tsc  --emitDeclarationOnly"
+  },
+  "type": "module",
+  "files": [
+    "./dist",
+    "./src",
+    "tsconfig.json",
+    "LICENCE",
+    "README.md"
+  ],
+  "keywords": [
+    "byte",
+    "bit",
+    "packer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valerapilyavin/byte-bit-packer/tree/v1.0.0"
+  },
+  "author": "Valera Pilyavin <valerapilyavin@gmail.com>",
+  "license": "Unlicense",
+  "description": "Typescript: Manipulating bytes and bits in a ArrayBuffer"
+
+}
